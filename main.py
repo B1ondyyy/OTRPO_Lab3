@@ -49,7 +49,7 @@ def store_data_to_json(data, filepath):
 # Основная функция
 def main():
     # Сервисный токен
-    access_token = "9d36adf49d36adf49d36adf42e9d56f21599d369d36adf4fa2097aa7adf19cb8e88c1ac" # Токен приложения
+    access_token = "TOKEN" # Токен приложения
 
     # Получение и сохранение данных
     vk_data = fetch_user_data(access_token, user_id)
